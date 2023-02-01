@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: black;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+}
+
+section {
+  background-color: white;
+  border: 1px solid gray;
+  flex-basis: calc(33.33% - 2em);
+  padding: 1em;
+  text-align: center;
+}
+
+footer {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  padding: 1em
